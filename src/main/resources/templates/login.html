@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}" href="../static/css/bootstrap.css" >
+</head>
+<body>
+
+    <div class="container" style="max-width:600px;margin-top: 50px ">
+        <h3 class="page-header text-center">Login</h3>
+        <div class="well">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nickname">User Name</label>
+                    <input type="text" name="nickname" id="nickname" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password" class="form-control">
+                </div>
+
+                <p class="text-center">
+                    <button type="submit" class="btn btn-primary">login</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script th:src="@{/js/bootstrap.js}" src="../static/js/bootstrap.js" ></script>
+</body>
+</html>

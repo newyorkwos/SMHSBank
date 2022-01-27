@@ -2,6 +2,7 @@ package com.bajiru.bank.service.repository;
 
 import com.bajiru.bank.domain.ProductCategory;
 import com.bajiru.bank.domain.ProductInfo;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 /**
  * @Description
@@ -29,7 +31,7 @@ public class ProductInfoRepositoryTest {
     public void saveTest(){
         ProductInfo productInfo=new ProductInfo();
         ProductCategory productCategory=new ProductCategory();
-        for(int i=1; i<=10; i++ ){
+        for(int i=1; i<=5; i++ ){
             productInfo.setProductName("pancake"+i);
             productInfo.setProductId(String.valueOf(i));
             productInfo.setProductPrice(new BigDecimal(10+i));
@@ -37,7 +39,7 @@ public class ProductInfoRepositoryTest {
             productInfo.setProductDescription("Test good!");
             productInfo.setProductStatus(0);
             productInfo.setProductIcon("https://picsum.photos/id/493/200/300");
-            productInfo.setProductCategory(productCategoryRepository.findByCategoryType(1));
+            productInfo.setProductCategory(productCategoryRepository.findByCategoryType(i));
             ProductInfo result=repository.save(productInfo);
 
 
@@ -46,6 +48,7 @@ public class ProductInfoRepositoryTest {
 
     @Test
     public void findByProductStatus() {
-
+        List<ProductInfo> productInfoList=repository.findByProductStatus(0);
+        Assert.assertNotEquals(0, productInfoList.size());
     }
 }
