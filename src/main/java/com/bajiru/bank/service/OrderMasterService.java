@@ -2,6 +2,7 @@ package com.bajiru.bank.service;
 
 import com.bajiru.bank.domain.OrderMaster;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 /**
  * @Description create OrderMaster Service
@@ -17,7 +18,7 @@ public interface OrderMasterService  {
     OrderMaster findOne(String orderId);
 
     /*find the OrderMaster List by customerId*/
-    Page<OrderMaster> findList(String customerId);
+    Page<OrderMaster> findList(String customerI, Pageable pageable);
 
     /*cancel OrderMaster*/
     OrderMaster cancel(OrderMaster orderMaster);
@@ -27,4 +28,7 @@ public interface OrderMasterService  {
 
     /*OrderMaster paid*/
     OrderMaster paid(OrderMaster orderMaster);
+
+    /*find all OrderMasters in page mode*/
+    Page<OrderMaster> findList(Pageable pageable);
 }

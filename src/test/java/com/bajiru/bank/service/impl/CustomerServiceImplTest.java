@@ -6,6 +6,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.util.Assert;
 
 /**
  * @Description
@@ -27,5 +28,12 @@ public class CustomerServiceImplTest {
             customer.setPassword("pass1234");
             repository.save(customer);
 
+    }
+
+    @Test
+    public void findCustomerById(){
+        String customerId="01";
+        Customer customer=repository.findById(customerId);
+        Assert.notNull(customer);
     }
 }

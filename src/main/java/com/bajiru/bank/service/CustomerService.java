@@ -10,5 +10,5 @@ import com.bajiru.bank.domain.Customer;
 public interface CustomerService {
     Customer save(Customer customer);
     Customer update(Customer customer);
-    Customer findCustomerById(String customerId);
+    Customer findById(String customerId);
 }
