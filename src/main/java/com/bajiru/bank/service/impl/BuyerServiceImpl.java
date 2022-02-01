@@ -21,13 +21,13 @@ public class BuyerServiceImpl implements BuyerService {
     private OrderMasterServiceImpl orderMasterService;
 
     @Override
-    public OrderMaster findOrderOne(String openid, String orderId) {
-        return checkOrderOwner(openid, orderId);
+    public OrderMaster findOrderOne(String customerId, String orderId) {
+        return checkOrderOwner(customerId, orderId);
     }
 
     @Override
-    public OrderMaster cancelOrder(String openid, String orderId) {
-        OrderMaster orderMaster = checkOrderOwner(openid, orderId);
+    public OrderMaster cancelOrder(String customerId, String orderId) {
+        OrderMaster orderMaster = checkOrderOwner(customerId, orderId);
         if (orderMaster == null) {
             log.error("【取消订单】查不到改订单, orderId={}", orderId);
             throw new SellException(ResultEnum.ORDER_NOT_EXIST);

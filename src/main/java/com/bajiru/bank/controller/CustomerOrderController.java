@@ -61,7 +61,7 @@ public class CustomerOrderController {
     public ResultVO<List<OrderMaster>> list(@RequestParam("customerId") String customerId,
                                             @RequestParam(value = "page", defaultValue="0") Integer page,
                                             @RequestParam(value="size", defaultValue ="10") Integer size){
-        if(StringUtils.hasLength(customerId)){
+        if(!StringUtils.hasLength(customerId)){
             log.error("【find OrderMaster】No customerId ");
             throw new SellException(ResultEnum.PARAM_ERROR);
         }
@@ -76,6 +76,7 @@ public class CustomerOrderController {
     @GetMapping("detail")
     public ResultVO<OrderMaster>detail(@RequestParam("customerId") String customerId,
                                        @RequestParam("orderId") String orderId){
+
         OrderMaster orderMaster=buyerService.findOrderOne(customerId, orderId);
         return ResultVOUtil.success(orderMaster);
     }

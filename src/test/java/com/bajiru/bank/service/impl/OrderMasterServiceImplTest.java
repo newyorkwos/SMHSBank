@@ -48,12 +48,12 @@ public class OrderMasterServiceImplTest {
         orderMaster.setCustomer(customer);
         List<OrderDetail> orderDetailList=new ArrayList<>();
         OrderDetail o1=new OrderDetail();
-        o1.setProductInfo(productInfoService.findOne("1"));
-        o1.setProductQuantity(1);
+        o1.setProductInfo(productInfoService.findOne("2"));
+        o1.setProductQuantity(2);
 
         OrderDetail o2=new OrderDetail();
-        o2.setProductInfo(productInfoService.findOne("2"));
-        o2.setProductQuantity(2);
+        o2.setProductInfo(productInfoService.findOne("3"));
+        o2.setProductQuantity(3);
 
         orderDetailList.add(o1);
         orderDetailList.add(o2);

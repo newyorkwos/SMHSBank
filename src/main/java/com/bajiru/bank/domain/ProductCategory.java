@@ -1,5 +1,6 @@
 package com.bajiru.bank.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.DynamicUpdate;
@@ -37,7 +38,7 @@ public class ProductCategory {
     @Temporal(TemporalType.TIMESTAMP)
     @UpdateTimestamp
     private Date updateTime;
-
+    @JsonIgnore
     @OneToMany(mappedBy = "productCategory", cascade = {CascadeType.ALL})
     private List<ProductInfo> productInfos=new ArrayList<>();
 

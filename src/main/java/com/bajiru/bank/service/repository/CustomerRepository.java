@@ -9,4 +9,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @CreateDateTime 2022-01-22-5:02 PM
  */
 public interface CustomerRepository extends JpaRepository<Customer, String> {
+
 }
