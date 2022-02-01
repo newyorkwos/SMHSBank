@@ -1,0 +1,13 @@
+server:
+  port: 8080
+logging:
+#  level:
+#    root: info
+#    com.bajiru.shoppingerp: error
+  config:
+    classpath: logback-spring.xml
+  file:
+    name: log/SMHSbank
+
+
+

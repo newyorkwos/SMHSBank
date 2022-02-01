@@ -1,0 +1,14 @@
+server:
+  port: 8081
+logging:
+#  level: warn
+#    root: info
+#    com.bajiru.shoppingerp: debug
+  config:
+    classpath: logback-spring.xml
+  file:
+      name: log/bajiruShoppingProd
+
+
+
+

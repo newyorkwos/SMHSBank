@@ -1,0 +1,133 @@
+2022-01-27 16:22:08,281 Starting SmhsBankApplication using Java 1.8.0_162 on SBook-pro.local with PID 30339 (/Users/stevenwu/Documents/IntellijProject/target/classes started by stevenwu in /Users/stevenwu/Documents/IntellijProject)
+2022-01-27 16:22:08,283 The following profiles are active: dev
+2022-01-27 16:22:08,395 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:22:08,395 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:22:09,287 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-27 16:22:09,360 Finished Spring Data repository scanning in 62 ms. Found 5 JPA repository interfaces.
+2022-01-27 16:22:09,700 Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2175beb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:22:09,736 Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-27 16:22:10,089 Tomcat initialized with port(s): 8080 (http)
+2022-01-27 16:22:10,101 Starting service [Tomcat]
+2022-01-27 16:22:10,101 Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 16:22:10,188 Initializing Spring embedded WebApplicationContext
+2022-01-27 16:22:10,189 Root WebApplicationContext: initialization completed in 1793 ms
+2022-01-27 16:22:10,430 HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-27 16:22:10,471 HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-27 16:22:10,653 HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-27 16:22:10,757 HikariPool-1 - Starting...
+2022-01-27 16:22:10,948 HikariPool-1 - Start completed.
+2022-01-27 16:22:10,979 HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-27 16:22:11,805 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-27 16:22:11,814 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-27 16:22:12,774 
+
+Using generated security password: 01796431-32ca-4917-8da5-e52edfa369a9
+
+2022-01-27 16:22:13,074 Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@364103b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@78e6e208, org.springframework.security.web.header.HeaderWriterFilter@20ac381c, org.springframework.security.web.csrf.CsrfFilter@319a556c, org.springframework.security.web.authentication.logout.LogoutFilter@39ae610a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4f8d5cd0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6db743f7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6dcb201e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@18a2afe7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54a7eb87, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78390ec5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@601b77d7, org.springframework.security.web.session.SessionManagementFilter@3905fbd4, org.springframework.security.web.access.ExceptionTranslationFilter@3497eca8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@12660302]
+2022-01-27 16:22:13,152 LiveReload server is running on port 35729
+2022-01-27 16:22:13,191 Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-27 16:22:13,200 Started SmhsBankApplication in 5.75 seconds (JVM running for 6.645)
+2022-01-27 16:22:25,258 Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-27 16:22:25,261 HikariPool-1 - Shutdown initiated...
+2022-01-27 16:22:25,270 HikariPool-1 - Shutdown completed.
+2022-01-27 16:22:34,427 Starting SmhsBankApplication using Java 1.8.0_162 on SBook-pro.local with PID 30381 (/Users/stevenwu/Documents/IntellijProject/target/classes started by stevenwu in /Users/stevenwu/Documents/IntellijProject)
+2022-01-27 16:22:34,428 The following profiles are active: dev
+2022-01-27 16:22:34,463 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:22:34,464 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:22:35,026 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-27 16:22:35,076 Finished Spring Data repository scanning in 43 ms. Found 5 JPA repository interfaces.
+2022-01-27 16:22:35,417 Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$93b4923c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:22:35,442 Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-27 16:22:35,697 Tomcat initialized with port(s): 8080 (http)
+2022-01-27 16:22:35,706 Starting service [Tomcat]
+2022-01-27 16:22:35,707 Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 16:22:35,775 Initializing Spring embedded WebApplicationContext
+2022-01-27 16:22:35,775 Root WebApplicationContext: initialization completed in 1311 ms
+2022-01-27 16:22:35,965 HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-27 16:22:36,001 HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-27 16:22:36,097 HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-27 16:22:36,164 HikariPool-1 - Starting...
+2022-01-27 16:22:36,291 HikariPool-1 - Start completed.
+2022-01-27 16:22:36,303 HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-27 16:22:37,113 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-27 16:22:37,125 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-27 16:22:37,929 
+
+Using generated security password: f4acceed-9f28-476f-9a7c-e1d812263c20
+
+2022-01-27 16:22:38,173 Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b81b9fc, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e8671bf, org.springframework.security.web.header.HeaderWriterFilter@198ee80e, org.springframework.security.web.csrf.CsrfFilter@51717ebf, org.springframework.security.web.authentication.logout.LogoutFilter@192e175, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7b08a598, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@16ae4956, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1c1bcbac, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@110a2f08, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6534cff7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@93c6b08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c29c548, org.springframework.security.web.session.SessionManagementFilter@b15d689, org.springframework.security.web.access.ExceptionTranslationFilter@6b8e0c85, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@628b6e86]
+2022-01-27 16:22:38,243 LiveReload server is running on port 35729
+2022-01-27 16:22:38,277 Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-27 16:22:38,287 Started SmhsBankApplication in 4.24 seconds (JVM running for 4.878)
+2022-01-27 16:24:00,968 Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-27 16:24:00,986 HikariPool-1 - Shutdown initiated...
+2022-01-27 16:24:01,013 HikariPool-1 - Shutdown completed.
+2022-01-27 16:24:48,987 Starting ProductCategoryRepositoryTest using Java 1.8.0_162 on SBook-pro.local with PID 30607 (started by stevenwu in /Users/stevenwu/Documents/IntellijProject)
+2022-01-27 16:24:48,988 The following profiles are active: dev
+2022-01-27 16:24:49,831 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-27 16:24:49,927 Finished Spring Data repository scanning in 84 ms. Found 5 JPA repository interfaces.
+2022-01-27 16:24:50,373 Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$703b2777] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:24:50,424 Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-27 16:24:50,816 HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-27 16:24:50,865 HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-27 16:24:51,101 HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-27 16:24:51,208 HikariPool-1 - Starting...
+2022-01-27 16:24:51,451 HikariPool-1 - Start completed.
+2022-01-27 16:24:51,496 HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-27 16:24:52,493 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-27 16:24:52,504 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-27 16:24:54,666 
+
+Using generated security password: ed6c4bf5-970e-4d4b-bb70-9df146280383
+
+2022-01-27 16:24:55,029 Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3093b9ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b278b17, org.springframework.security.web.header.HeaderWriterFilter@234ce7ff, org.springframework.security.web.csrf.CsrfFilter@7aab98b6, org.springframework.security.web.authentication.logout.LogoutFilter@40c0437f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@21ce2e4d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1736273c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@220be130, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2ab7f649, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4203529f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2aaa89c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@379b4e86, org.springframework.security.web.session.SessionManagementFilter@3cfab340, org.springframework.security.web.access.ExceptionTranslationFilter@278c998, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7474196]
+2022-01-27 16:24:55,227 Started ProductCategoryRepositoryTest in 6.947 seconds (JVM running for 8.421)
+2022-01-27 16:24:55,513 Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-27 16:24:55,517 HikariPool-1 - Shutdown initiated...
+2022-01-27 16:24:55,543 HikariPool-1 - Shutdown completed.
+2022-01-27 16:25:50,431 Starting CustomerServiceImplTest using Java 1.8.0_162 on SBook-pro.local with PID 30689 (started by stevenwu in /Users/stevenwu/Documents/IntellijProject)
+2022-01-27 16:25:50,433 The following profiles are active: dev
+2022-01-27 16:25:51,234 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-27 16:25:51,322 Finished Spring Data repository scanning in 76 ms. Found 5 JPA repository interfaces.
+2022-01-27 16:25:51,761 Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$70e9eb8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:25:51,812 Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-27 16:25:52,139 HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-27 16:25:52,247 HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-27 16:25:52,411 HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-27 16:25:52,518 HikariPool-1 - Starting...
+2022-01-27 16:25:52,703 HikariPool-1 - Start completed.
+2022-01-27 16:25:52,733 HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-27 16:25:53,645 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-27 16:25:53,653 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-27 16:25:55,437 
+
+Using generated security password: c23dbeb0-993d-438b-a243-9ac72fa3be36
+
+2022-01-27 16:25:55,713 Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@416d90f0, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fe4503a, org.springframework.security.web.header.HeaderWriterFilter@626df173, org.springframework.security.web.csrf.CsrfFilter@3d7314b3, org.springframework.security.web.authentication.logout.LogoutFilter@608f310a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@56f61d74, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7028b5cc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@696298ea, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2919aff3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d22ed6c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a4b8e25, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@de0c402, org.springframework.security.web.session.SessionManagementFilter@2411b935, org.springframework.security.web.access.ExceptionTranslationFilter@7a021f49, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f894a6f]
+2022-01-27 16:25:55,899 Started CustomerServiceImplTest in 5.934 seconds (JVM running for 6.905)
+2022-01-27 16:25:56,148 Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-27 16:25:56,149 HikariPool-1 - Shutdown initiated...
+2022-01-27 16:25:56,159 HikariPool-1 - Shutdown completed.
+2022-01-27 16:26:31,362 Starting ProductInfoRepositoryTest using Java 1.8.0_162 on SBook-pro.local with PID 30729 (started by stevenwu in /Users/stevenwu/Documents/IntellijProject)
+2022-01-27 16:26:31,363 The following profiles are active: dev
+2022-01-27 16:26:32,430 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-27 16:26:32,556 Finished Spring Data repository scanning in 99 ms. Found 5 JPA repository interfaces.
+2022-01-27 16:26:33,069 Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$56d817ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:26:33,120 Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-27 16:26:33,455 HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-27 16:26:33,569 HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-27 16:26:33,739 HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-27 16:26:33,843 HikariPool-1 - Starting...
+2022-01-27 16:26:34,043 HikariPool-1 - Start completed.
+2022-01-27 16:26:34,071 HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-27 16:26:34,986 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-27 16:26:34,995 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-27 16:26:36,832 
+
+Using generated security password: b449e34e-574b-4fee-a202-8027d4950026
+
+2022-01-27 16:26:37,132 Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@696298ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@669580e2, org.springframework.security.web.header.HeaderWriterFilter@4e030feb, org.springframework.security.web.csrf.CsrfFilter@d677be9, org.springframework.security.web.authentication.logout.LogoutFilter@3a7d914c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@44d84313, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7c0ff7a0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@de0c402, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@639948a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37c37d67, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1013871e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24955144, org.springframework.security.web.session.SessionManagementFilter@1425e531, org.springframework.security.web.access.ExceptionTranslationFilter@e60c5a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d05435c]
+2022-01-27 16:26:37,318 Started ProductInfoRepositoryTest in 6.575 seconds (JVM running for 7.839)
+2022-01-27 16:26:37,796 Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-27 16:26:37,799 HikariPool-1 - Shutdown initiated...
+2022-01-27 16:26:37,817 HikariPool-1 - Shutdown completed.
