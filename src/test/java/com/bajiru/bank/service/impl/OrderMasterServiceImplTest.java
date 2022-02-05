@@ -42,26 +42,28 @@ public class OrderMasterServiceImplTest {
 
     @Test
     public void create() {
+        for(int i=1; i<=20;i++){
+            OrderMaster orderMaster=new OrderMaster();
+            Customer customer=customerService.findById("02");
+            orderMaster.setCustomer(customer);
+            List<OrderDetail> orderDetailList=new ArrayList<>();
+            OrderDetail o1=new OrderDetail();
+            o1.setProductInfo(productInfoService.findOne("4"));
+            o1.setProductQuantity(4);
 
-        OrderMaster orderMaster=new OrderMaster();
-        Customer customer=customerService.findById("01");
-        orderMaster.setCustomer(customer);
-        List<OrderDetail> orderDetailList=new ArrayList<>();
-        OrderDetail o1=new OrderDetail();
-        o1.setProductInfo(productInfoService.findOne("2"));
-        o1.setProductQuantity(2);
+            OrderDetail o2=new OrderDetail();
+            o2.setProductInfo(productInfoService.findOne("5"));
+            o2.setProductQuantity(4);
 
-        OrderDetail o2=new OrderDetail();
-        o2.setProductInfo(productInfoService.findOne("3"));
-        o2.setProductQuantity(3);
+            orderDetailList.add(o1);
+            orderDetailList.add(o2);
+            orderMaster.setOrderDetails(orderDetailList);
 
-        orderDetailList.add(o1);
-        orderDetailList.add(o2);
-        orderMaster.setOrderDetails(orderDetailList);
+            OrderMaster result=orderMasterService.create(orderMaster);
+            log.info("【create OrderMaster】result={}", result);
+        }
 
-        OrderMaster result=orderMasterService.create(orderMaster);
-        log.info("【create OrderMaster】result={}", result);
-        Assert.assertNotNull(result);
+        //Assert.assertNotNull(result);
     }
 
     @Test

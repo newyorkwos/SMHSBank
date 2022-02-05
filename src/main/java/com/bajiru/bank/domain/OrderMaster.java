@@ -3,12 +3,14 @@ package com.bajiru.bank.domain;
 
 import com.bajiru.bank.enums.OrderStatusEnum;
 import com.bajiru.bank.enums.PayStatusEnum;
+import com.bajiru.bank.utils.EnumUtil;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.DynamicUpdate;
 import org.hibernate.annotations.UpdateTimestamp;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -66,6 +68,19 @@ public class OrderMaster {
     @Temporal(TemporalType.TIMESTAMP)
     @UpdateTimestamp
     private Date updateTime;
+
+    @JsonIgnore
+    @Transactional
+    public OrderStatusEnum getOrderStatusEnum() {
+        return EnumUtil.getByCode(orderStatus, OrderStatusEnum.class);
+    }
+
+    @JsonIgnore
+    @Transactional
+    public PayStatusEnum getPayStatusEnum() {
+        return EnumUtil.getByCode(payStatus, PayStatusEnum.class);
+    }
+
 
     public OrderMaster() {
     }

@@ -38,11 +38,11 @@ public class OrderForm2OrderMasterConverter {
         orderMaster.setCustomer(customer);
        // orderDTO.setBuyerOpenid(orderForm.getOpenid());
 
+
         List<OrderDetail> orderDetailList = new ArrayList<>();
+        TypeToken typeToken=new TypeToken<List<OrderDetail>>(){};
         try {
-            orderDetailList = gson.fromJson(orderForm.getItems(),
-                    new TypeToken<List<OrderDetail>>() {
-                    }.getType());
+            orderDetailList = gson.fromJson(orderForm.getItems(), typeToken.getType());
         } catch (Exception e) {
             log.error("【对象转换】错误, string={}", orderForm.getItems());
             throw new SellException(ResultEnum.PARAM_ERROR);
